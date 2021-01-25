@@ -56,7 +56,7 @@ function division(setOfNumbers) {
     if(choice == "1"){
         console.log("Addition")
         multipleNumberReceiver();
-        addition(multipleNumberReceiver);    
+        addition(setOfNumbers);    
     }
     // Subtraction calculation
     else if(choice == "2"){
